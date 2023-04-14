@@ -8,6 +8,10 @@
     color: black;
 }
 
+body{
+    background-color: #1f2937;
+}
+
 
 .top-container{
     background-color: #1f2937;
@@ -85,6 +89,7 @@ nav{
 
 .main.body-container{
     height: 500px;
+    background-color: white;
 }
 
 .middle.main-body{
@@ -117,4 +122,95 @@ nav{
     width: 200px;
     border-radius: 10px;
     border: 4px solid #3882f6;
+}
+
+/* Quote Section */
+
+.quote-section{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-body{
+    width: 60%;
+}
+
+.quote-content{
+font-style: italic;
+font-weight: lighter;
+font-size: 36px;
+color: #1f2937;
+}
+
+.quoter{
+    font-weight:bold;
+    font-size: 24px;
+    text-align: right;
+}
+
+/* Popup section */
+
+.call-to-action-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.call-to-action-box{
+    width: 1000px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.popup.content{
+    color: white;
+}
+
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.popup.content.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.popup.content.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-container{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup.signup-button{
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 2px solid white;
+    /* padding: 4px 100px; */
+    padding-top: 4px;
+    width: 125px;
 }
