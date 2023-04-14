@@ -14,10 +14,8 @@
     min-width: 1000px;
 }
 
-
-
 header{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -53,7 +51,7 @@ nav{
 
 .header-two{
     margin-top: 100px;
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -71,7 +69,7 @@ nav{
 
 .signup-button{
     margin: 20px 0;
-    background-color: #3c82f6;
+    background-color: #3882f6;
     color: white;
     width: 125px;
     border-radius: 10px;
@@ -80,6 +78,43 @@ nav{
 }
 
 .placeholder-image>img{
-    width: 300px;
+    width: 400px;
 }
 
+/* MAIN BODY */
+
+.main.body-container{
+    height: 500px;
+}
+
+.middle.main-body{
+    width: 100%;
+    text-align: center;
+}
+
+.main-body-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 50px auto;
+}
+
+.image-cards-list{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.image-cards-list p{
+    color:#1f2937;
+    padding:10px;
+}
+.component{
+    width:200px;
+}
+
+.list-images{
+    width: 200px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+}
