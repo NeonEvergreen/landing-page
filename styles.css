@@ -214,3 +214,16 @@ color: #1f2937;
     padding-top: 4px;
     width: 125px;
 }
+
+
+/* footer */
+.footer-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
+}
